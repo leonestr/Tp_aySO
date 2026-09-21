@@ -1,0 +1,61 @@
+cd repogit
+cd Tp_aySO/
+man grep
+grep HOME_URL/etc/os-relase
+grep HOME_URL/etc/os-release
+grep -i  HOME_URL/etc/os-release
+cd
+grep HOME_URL/etc/os-release
+get /etc/os-release
+cat /etc/os-release
+grep HOME_URL/etc/os-release
+grep HOME_URL
+grep HOME_URL /etc/os-release
+whoami
+cd 
+cd repogit
+cd Tp_aySO/
+echo "Usuario=$/(whoami)"> datos_usuario.txt
+git add
+echo "Usuario=$(whoami)" > datos_usuario.txt
+cat datos_usuario.txt 
+git add .
+git status
+git config --global user.email "leonestradalinares0@gmail.com"
+git config --global user.name "leonstr"
+git commit -m "AAD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+git push
+cat datos_usuario.txt 
+grep "model name" /cpuinfo/proc
+grep "model name" /cpuinfo
+grep "model name" /proc/cpuinfo
+grep "model name" /proc/cpuinfo >> datos_usuario.txt 
+cat datos_usuario.txt 
+grep tail -n1 "model name" /proc/cpuinfo
+grep "model name" /proc/cpuinfo tail -n1
+grep "model name" /proc/cpuinfo head -n1
+cat datos_usuario.txt 
+grep -m  "model name" /proc/cpuinfo 
+grep -m1  "model name" /proc/cpuinfo 
+grep -m1  "model name" /proc/cpuinfo  >> datos_usuario.txt 
+cat datos_usuario.txt 
+echo "Usuario=$(whoami)" > datos_usuario.txt 
+grep -m1 "model name" /proc/cpuinfo >> datos_usuario.txt 
+cat datos_usuario.txt 
+git add .
+git commit .m "feat: Añadiendo informacion de CPU"
+git commit -m "feat: Añadiendo informacion de CPU"
+cat <<EOF>> README.md
+Alumno: Leon Estrada
+División: 311
+Turno: Noche
+EOF
+
+cat README.md 
+git add README.md datos_usuario.txt 
+git commint -m "ADD: Añadiendo Readme y datos de usuario"
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push
+History -a
+history -a
